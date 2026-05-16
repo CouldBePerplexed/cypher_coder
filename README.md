@@ -1,9 +1,6 @@
 # cipher_coder
 Personal project to implement ciphers.
 
-## Current cipher I'm working on
-Caeser Cipher
-
 ## Thinking of working on...
 - Bruteforce method
 - Language model
