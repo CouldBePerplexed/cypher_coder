@@ -1,4 +1,4 @@
-# cipher_coder
+# cypher_coder
 Personal project to implement ciphers.
 
 ## Thinking of working on...
