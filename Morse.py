@@ -1,7 +1,7 @@
 from Cipher import Cipher
 from Tree import Tree
 
-class Morse():    
+class Morse(Cipher):    
     def __init__(self):
         self.root = Tree().createTree(["E", "I", "S", "H", "5", "4", "V", None, "3", "U", "F", None, None, None, None, "2", "A", "R", "L", None, None, None, None, None, "W", "P", None, None, "J", None, "1", "T", "N", "D", "B", "6", None, "X", None, None, "K", None, None, None, "Y", None, None, "M", "G", "Z", "7", None, "Q", None, None, "O", None, "8", None, None, "9", "0"])
     # Prints whole tree

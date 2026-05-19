@@ -8,7 +8,7 @@ class Vigenere(Cipher):
                                                     #     .
                                                     #     .
     def __init__(self, ascii_range = [65, 90]):
-        self.addAsciiRange(ascii_range)
+        self.setAsciiRange(ascii_range)
         grid = np.array([[""]*(self.range[1]-self.range[0]+1)]*(self.range[1]-self.range[0]+1), ndmin=2)
 
         x = 0

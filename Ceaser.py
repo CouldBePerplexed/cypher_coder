@@ -4,9 +4,9 @@ class Caeser(Cipher):
     def __init__(self):
         self.shift = 0
         self.bruteforce = False
-        self.range = [65, 90]
 
-    def encrypt(self, message, shift = 0, right = True):
+    def encrypt(self, message, shift = 0, right = True, ascii_range = [65, 90]):
+        self.setAsciiRange(ascii_range)
         message = message.upper().strip()
 
         if (shift < 0 or shift > self.range[1]-self.range[0]):
